@@ -69,7 +69,7 @@ class FileUtils {
   }
 
   /** @return extension of image with dot, or default .jpg if it none. */
-  private static String getImageExtension(Context context, Uri uriImage) {
+  private static String getImageExtension(final Context context, Uri uriImage) {
     String extension = null;
 
     try {
